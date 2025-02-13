@@ -24,18 +24,18 @@ cmd({
 
         // Create the text response with system details
         let monspace = '```';
-        const snm = `👋 ${monspace} Hello ${pushname}, I'm alive now ${monspace}
+        const snm = `👋 ${monspace} Hello ${pushname}, ɪ'ᴍ ᴀʟɪᴠᴇ ɴᴏᴡ👋 ${monspace}
 
-_*Hellow, I,m queen Senu Md.Powered by real Jester.🪄*_
+_*ʜᴇʟʟᴏᴡ, ɪ,ᴍ Qᴜᴇᴇɴ ꜱᴇɴᴜ ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ.ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴇᴀʟ ᴊᴇꜱᴛᴇʀ.🪄*_
 
 > *Version:* ${require("../package.json").version}
 > *Memory:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 > *Runtime:* ${runtime(process.uptime())}
 > *Hostname:* ${hostname}
 
-*☘️ Follow our channel:* https://whatsapp.com/channel/0029VayrakE35fM0fqnszD3c
+*☘️ ꜰᴏʟʟᴏᴡ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ:* https://whatsapp.com/channel/0029VayrakE35fM0fqnszD3c
 
-*𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃 𝐀𝐋𝐈𝐕𝐄 𝐍𝐎𝐖👋*`;
+*Qᴜᴇᴇɴ ꜱᴇɴᴜ ᴍᴅ ᴀʟɪᴠᴇ ɴᴏᴡ👋*`;
 
         // Sending the audio message
         await conn.sendMessage(from, {
@@ -74,26 +74,26 @@ cmd({
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let desc = `*👋 Hello ${pushname}*
+        let desc = `*👋 ʜᴇʟʟᴏᴡ ${pushname}*
 
-*╭─「 ᴄᴏᴍᴍᴀɴᴅ ᴘᴀɴᴇʟ 」*
+*╭─「 ꜱᴇɴᴜ-ᴍᴅ ᴄᴏᴍᴍᴀɴᴅꜱ 」*
 *│◈ ʀᴜɴᴛɪᴍᴇ :* ${runtime(process.uptime())}
 *│◈ ʀᴀᴍ ᴜꜱᴀɢᴇ :* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 *╰──────────●●►*
 *╭────────*
 *│
-*│ 1   𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔*
-*│ 2   𝐂𝐎𝐍𝐕𝐄𝐑𝐓 𝐌𝐄𝐍𝐔*
-*│ 3   𝐀𝐈 𝐌𝐄𝐍𝐔*
-*│ 4   𝐒𝐄𝐀𝐑𝐂𝐇 𝐌𝐄𝐍𝐔*
-*│ 5   𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔*
-*│ 6   𝐅𝐔𝐍 𝐌𝐄𝐍𝐔*
-*│ 7   𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔*
-*│ 8   𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔*
-*│ 9   𝐎𝐓𝐇𝐄𝐑 𝐌𝐄𝐍𝐔*
+*│ 1   ᴏᴡɴᴇʀ ᴍᴇɴᴜ*
+*│ 2   ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ*
+*│ 3   ᴀɪ ᴍᴇɴᴜ*
+*│ 4   ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ*
+*│ 5   ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ*
+*│ 6   ꜰᴜɴ ᴍᴇɴᴜ*
+*│ 7   ᴍᴀɪɴ ᴍᴇɴᴜ*
+*│ 8   ɢʀᴏᴜᴘ ᴍᴇɴᴜ*
+*│ 9   ᴏᴛʜᴇʀ ᴍᴇɴᴜ*
 *╰─────────
 
-> *𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*`;
+> *Qᴜᴇᴇɴ-ꜱᴇɴᴜ-ᴍᴅ*`;
 
 
         await conn.sendMessage(from, {
