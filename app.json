@@ -1,0 +1,33 @@
+{
+    "name": "Queen Spriky MD",
+    "description": "Queen Spriky MD by Udavin Wijesundara",
+    "logo": "https://github.com/uwtechshow-official/Spriky-Database/blob/main/Logo/Bot.jpg?raw=true",
+    "keywords": ["bot"],
+    "success_url": "/",
+  
+    "env": {
+      "SESSION_ID": {
+        "description": "Put the session-id here.",
+        "required": true
+      },
+      "MONGODB": {
+        "description": "Put the mongodb url here.",
+        "required": true
+      },
+      "OwnerNumber": {
+        "description": "Put the owner number here.",
+        "required": true
+      },
+      "BotNumber": {
+        "description": "Put the bot number here.",
+        "required": true
+      }
+  },
+  
+       "buildpacks": [
+          {
+              "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+          }
+       ],
+    "stack": "heroku-24"
+  }
