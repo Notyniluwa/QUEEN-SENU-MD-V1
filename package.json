@@ -1,12 +1,12 @@
 {
-  "name": "QUEEN-NETHU-MD",
+  "name": "QUEEN-SENU-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name QUEEN-NETHU-MD",
-    "stop": "pm2 stop QUEEN-NETHU-MD",
-    "restart": "pm2 restart QUEEN-NETHU-MD"
+    "stop": "pm2 stop QUEEN-SENU-MD",
+    "restart": "pm2 restart QUEEN-SENU-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
