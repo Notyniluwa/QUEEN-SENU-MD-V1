@@ -164,7 +164,7 @@ try{
       isQuotedImage ? await m.quoted.download(nameJpg) : await m.download(nameJpg)
     let sticker = new Sticker(nameJpg + '.jpg', {
       pack: pushname, // The pack name
-      author: '*QUEEN-SADU*', // The author name
+      author: '*QUEEN-SENU*', // The author name
       type: q.includes("--crop" || '-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
       categories: ["🤩", "🎉"], // The sticker category
       id: "12345", // The sticker id
@@ -179,7 +179,7 @@ try{
     await m.quoted.download(nameWebp)
   let sticker = new Sticker(nameWebp + '.webp', {
     pack: pushname, // The pack name
-    author: '*QUEEN-SADU*', // The author name
+    author: '*QUEEN-SENU*', // The author name
     type: q.includes("--crop" || '-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
     categories: ["🤩", "🎉"], // The sticker category
     id: "12345", // The sticker id
@@ -261,7 +261,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         conversionInfo += `🔄 *Converted Amount*: ${convertedAmount} ${toCurrency}\n`;
         conversionInfo += `📈 *Exchange Rate*: 1 ${fromCurrency} = ${data.rates[toCurrency]} ${toCurrency}\n
         
-> *POWERED by QUEEN SADU*
+> *POWERED by QUEEN SENU*
         `;
 
         await conn.sendMessage(from, { text: conversionInfo }, { quoted: mek });
@@ -298,7 +298,7 @@ async (conn, mek, m, { from, q, reply }) => {
 🔠 *Translated*: ${translation}
 🌐 *Language*: ${targetLang.toUpperCase()}
 
-*👨‍💻 Qᴜᴇᴇɴ sadu md mr dinesh 👨‍💻*`;
+*👨‍💻 Queen senu md mr Jester 👨‍💻*`;
 
         return reply(translationMessage);
     } catch (e) {
