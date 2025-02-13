@@ -59,8 +59,7 @@
     "youtubedl-core":"^4.11.7",
     "fluent-ffmpeg": "^2.1.3",
     "hirunews-scrap": "^1.1.2",
-    "@mrhansamala/ytdl-core" : "latest",
-    "pixaldrain-sinhalasub": "git+https://github.com/DarkMakerofc/pixaldrain-sinhalasub.git"
+    "@mrhansamala/ytdl-core" : "latest"
   
   }
   }
