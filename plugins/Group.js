@@ -1,6 +1,6 @@
 const config = require('../config')
 const { cmd, commands } = require('../command') 
-const yn = "*👨‍💻 Qᴜᴇᴇ𝙽 𝚂𝙰𝙳𝚄 👨‍💻*";
+const yn = "*👨‍💻 Q𝚄𝙴𝙴𝙽 𝚂𝙴𝙽𝚄 👨‍💻*";
 //====================kick=================================
 cmd({
     pattern: "kick",
@@ -212,7 +212,7 @@ try{
 if (!isGroup) return reply(ONLGROUP)
 if (!isBotAdmins) return reply(botAdmin)
 if (!isAdmins) return reply(ADMIN)
-let teks = ` *ＱＵＥＥＮ SADU ＧＲＯＵＰ  ＮＯＴＩＦＹ*
+let teks = ` *ＱＵＥＥＮ ＳＥＮＵ ＧＲＯＵＰ  ＮＯＴＩＦＹ*
                    
 *𝐌𝐄𝐒𝐒𝐀𝐆𝐄 : ${q ? q : 'blank'}*\n\n`
 for (let mem of participants) {
