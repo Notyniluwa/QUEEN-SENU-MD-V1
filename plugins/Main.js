@@ -3,7 +3,7 @@ const config = require('../config');
 const {readEnv} = require('../lib/database');
 const os = require('os');
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, fetchJson, runtime, sleep } = require('../lib/functions');
-const imgUrl = 'https://i.postimg.cc/xdMvP3XZ/In-Shot-20241222-002123636.jpg'; // This image URL seems unnecessary
+const imgUrl = 'https://i.ibb.co/FLCv8J7R/2599.jpg'; // This image URL seems unnecessary
 
 //-----------------------------------------------ALive-----------------------------------------------
 
@@ -26,7 +26,7 @@ cmd({
         let monspace = '```';
         const snm = `👋 ${monspace} Hello ${pushname}, I'm alive now ${monspace}
 
-_*This queen senu whatsapp bot is made for your easy use. This bot is currently active🪄*_
+_*Hellow, I,m queen Senu Md.Powered by real Jester.🪄*_
 
 > *Version:* ${require("../package.json").version}
 > *Memory:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
@@ -35,8 +35,7 @@ _*This queen senu whatsapp bot is made for your easy use. This bot is currently 
 
 *☘️ Follow our channel:* https://whatsapp.com/channel/0029VayrakE35fM0fqnszD3c
 
-*QUEEN SENU MD IS ALIVE NOW*
-*MR JESTER*`;
+*𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃 𝐀𝐋𝐈𝐕𝐄 𝐍𝐎𝐖👋*`;
 
         // Sending the audio message
         await conn.sendMessage(from, {
@@ -53,7 +52,7 @@ _*This queen senu whatsapp bot is made for your easy use. This bot is currently 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: '𝐌𝐑 𝐉𝐄𝐒𝐓𝐄𝐑',
+                    newsletterName: '𝐌𝐑 𝗝𝝣𝗦𝗧𝝣𝗥-Ｉ𝗗</>🇱🇰',
                     newsletterJid: "120363322195409882@newsletter",
                 }
             }
@@ -70,7 +69,7 @@ cmd({
     pattern: "menu",
     alias: ["list"],
     desc: "menu the bot",
-    react: "📜",
+    react: "⚡",
     category: "main"
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -83,18 +82,18 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *╰──────────●●►*
 *╭────────*
 *│
-*│ 1   OWNER*
-*│ 2   CONVERT*
-*│ 3   AI*
-*│ 4   SEARCH*
-*│ 5   DOWNLOAD*
-*│ 6   FUN*
-*│ 7   MAIN*
-*│ 8   GROUP*
-*│ 9   OTHER*
+*│ 1   𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔*
+*│ 2   𝐂𝐎𝐍𝐕𝐄𝐑𝐓 𝐌𝐄𝐍𝐔*
+*│ 3   𝐀𝐈 𝐌𝐄𝐍𝐔*
+*│ 4   𝐒𝐄𝐀𝐑𝐂𝐇 𝐌𝐄𝐍𝐔*
+*│ 5   𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔*
+*│ 6   𝐅𝐔𝐍 𝐌𝐄𝐍𝐔*
+*│ 7   𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔*
+*│ 8   𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔*
+*│ 9   𝐎𝐓𝐇𝐄𝐑 𝐌𝐄𝐍𝐔*
 *╰─────────
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`;
+> *𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*`;
 
 
         await conn.sendMessage(from, {
@@ -120,7 +119,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *restart* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*`);
                         break;
                     case '2':               
                         reply(`*◈╾──CONVERT MENU──╼◈*
@@ -129,7 +128,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *convert* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*`);
                         break;
                     case '3':               
                         reply(`*◈╾──AI MENU──╼◈*
@@ -138,7 +137,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *ai* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*`);
                         break;
                     case '4':               
                         reply(`*◈╾──SEARCH MENU──╼◈*
@@ -150,7 +149,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *srepo* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*`);
                         break;
                     case '5':               
                         reply(`*◈╾──DOWNLOAD MENU──╼◈*
@@ -198,7 +197,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *img* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*`);
                         break;
                     case '7':               
                         reply(`*◈╾──MAIN MENU──╼◈*
@@ -228,7 +227,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *runtime* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*`);
                         break;
                     case '8':               
                         reply(`*◈╾──GROUP MENU──╼◈*
@@ -267,7 +266,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *gname* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*`);
                        break;
                     case '6':               
                         reply(`*◈╾──FUN MENU──╼◈*
@@ -285,7 +284,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *quote* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*`);
 
                         break;
                     case '9':               
@@ -301,7 +300,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *weather* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*`);
 
 
                         break;
@@ -331,7 +330,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         const startTime = Date.now()
-        const message = await conn.sendMessage(from, { text: '*📡  ʀᴜɴɪɴɢ ʀᴇsᴘᴏɴᴅ...*' })
+        const message = await conn.sendMessage(from, { text: '*📡  Qᴜᴇᴇɴ-ꜱᴇɴᴜ-ᴍᴅ ʀᴜɴɴɪɴɢ ʀᴇꜱᴘᴏɴᴅ...*' })
         const endTime = Date.now()
         const ping = endTime - startTime
         await conn.sendMessage(from, { text: `*ᴘᴏɴɢ*: ${ping} *_ᴍꜱ_*` }, { quoted: message })
@@ -358,13 +357,13 @@ async (conn, mek, m, { from, prefix, pushname, reply }) => {
         else if (os.hostname().length == 8) hostname = 'koyeb';
         else hostname = os.hostname();
 
-        const sssf = `*QUEEN SENU*
+        const sssf = `*𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*
         
 🎉 *Version :* ${require("../package.json").version}
 🗃️ *Memory :* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 ⏱️ *Runtime :* ${runtime(process.uptime())}
 📍 *Platform :* ${hostname}
-👤 *Owner :* 𝐌𝐑 𝐉𝐄𝐒𝐓𝐄𝐑
+👤 *Owner :* 𝐌𝐑 𝗝𝝣𝗦𝗧𝝣𝗥-Ｉ𝗗
 `;
 
         await conn.sendMessage(from, {
@@ -373,7 +372,7 @@ async (conn, mek, m, { from, prefix, pushname, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: '𝐌𝐑 𝐉𝐄𝐒𝐓𝐄𝐑',
+                    newsletterName: '𝐌𝐑 𝗝𝝣𝗦𝗧𝝣𝗥-Ｉ𝗗</>🇱🇰',
                     newsletterJid: "120363322195409882@newsletter",
                 }
             }
@@ -398,7 +397,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         // Construct the bot status message
-        const botStatus = `*QUEEN SENU MD*
+        const botStatus = `*𝐐𝐔𝐄𝐄𝐍-𝐒𝐄𝐍𝐔-𝐌𝐃*
         
 *╭───────────────◈◈►*
 *│ 👾 Bot Status: Online*
@@ -413,7 +412,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: '𝐌𝐑 𝐉𝐄𝐒𝐓𝐄𝐑',
+                    newsletterName: '𝐌𝐑 𝗝𝝣𝗦𝗧𝝣𝗥-Ｉ𝗗</>🇱🇰',
                     newsletterJid: "120363322195409882@newsletter",
                 }
             }
