@@ -14,7 +14,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '👧 *Random Anime Girl Image* 👧\n*👨‍💻 Qᴜᴇᴇɴ 𝚜𝚊𝚍𝚞 𝚋𝚢 𝚖𝚛 𝚍𝚒𝚗𝚎𝚜𝚑 👨‍💻*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '👧 *Random Anime Girl Image* 👧\n*👨‍💻 QUEEN SENU BY MR JESTER 👨‍💻*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`Error fetching anime girl image: ${e.message}`);
@@ -69,7 +69,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
 ${joke.punchline} 😄
 
-*👨‍💻 Qᴜᴇᴇɴ 𝚜𝚊𝚍𝚞 𝚋𝚢 𝚖𝚛 𝚍𝚒𝚗𝚎𝚜𝚑 👨‍💻*
+*👨‍💻 QUEEN SENU BY MR JESTER 👨‍💻*
 `;
 
         return reply(jokeMessage);
@@ -115,7 +115,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             '⚠️ *Note:* All actions are for demonstration purposes only.',
             '⚠️ *Reminder:* Ethical hacking is the only way to ensure security.',
             '',
-            '*QUEEN SADU-MD-HACKING-COMPLETE ☣*'
+            '*QUEEN SENU-MD-HACKING-COMPLETE ☣*'
         ];
 
         for (const line of steps) {
