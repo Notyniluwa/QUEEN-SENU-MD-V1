@@ -11,7 +11,7 @@ const axios = require('axios');
 const { File } = require('megajs');
 const moment = require('moment-timezone');
 
-const ownerNumber = ['94787072548'];
+const ownerNumber = ['94788770020'];
 
 //------------------ Session ---------------------//
 
@@ -22,7 +22,7 @@ if (!fs.existsSync(__dirname + '/session/creds.json')) {
     filer.download((err, data) => {
         if (err) throw err;
         fs.writeFile(__dirname + '/session/creds.json', data, () => {
-            console.log("✅ QUEEN NETHU MD | Session downloaded");
+            console.log("✅ QUEEN SENU MD | Session downloaded");
         });
     });
 }
@@ -40,7 +40,7 @@ async function connectToWA() {
     const { readEnv } = require('./lib/database');
     const config = await readEnv();
     const prefix = config.PREFIX;
-    console.log("✅ QUEEN NETHU MD | Connecting");
+    console.log("✅ QUEEN SENU MD | Connecting");
 
 //------------------ setting input ---------------------//
    
@@ -93,19 +93,19 @@ async function connectToWA() {
                 connectToWA();
             }
         } else if (connection === 'open') {
-            console.log('✅ QUEEN NETHU MD | Installing Commands');
+            console.log('✅ QUEEN SENU MD | Installing Commands');
             const path = require('path');
             fs.readdirSync("./plugins/").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() === ".js") {
                     require("./plugins/" + plugin);
                 }
             });
-            console.log('✅ QUEEN NETHU MD | Command installed successfully');
-            console.log('✅ QUEEN NETHU MD | Bot connected to WhatsApp');
-            let up = `*𝐐𝐔𝐄𝐄𝐍 𝐍𝐄𝐓𝐇𝐔 𝐌𝐃 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐃𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓 💛*
+            console.log('✅ QUEEN SENU MD | Command installed successfully');
+            console.log('✅ QUEEN SENU MD | Bot connected to WhatsApp');
+            let up = `*𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐃𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓 💛*
 
 *╭─「 ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴍꜱɢ 」*
-*│OWNER*: ɴᴇᴛʜᴍɪᴋᴀ ᴋᴀᴜꜱʜᴀʟʏᴀ
+*│OWNER*: CYBER JESTER
 *│NUMBER*: +${ownerNumber}
 *│PREFIX*: ${config.PREFIX}
 *╰───────────◈◈►*
@@ -126,27 +126,27 @@ async function connectToWA() {
 *│ 11*  *Welcome* : *${WELCOME}*
 *╰───────────◈◈►*
 
-> *ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ᴡᴀ ʙᴏᴛ ʙʏ Qᴜᴇᴇɴ ɴᴇᴛʜᴜ ᴍᴅ*
+> *ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ᴡᴀ ʙᴏᴛ ʙʏ QUEEN ɴᴇᴛʜᴜ ᴍᴅ*
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ - ɴᴇᴛʜᴜ ᴍᴀx ʏᴛ*`;
             
             conn.sendMessage(ownerNumber + "@s.whatsapp.net", {
                 image: { url: `https://pomf2.lain.la/f/5wapkl5g.jpg` },
                 caption: up ,
         contextInfo: {
-            mentionedJid: ['94704227534@s.whatsapp.net'], // specify mentioned JID(s) if any
+            mentionedJid: ['94788770020@s.whatsapp.net'], // specify mentioned JID(s) if any
             groupMentions: [],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363322195409882@newsletter',
-                newsletterName: "𝗡𝗘𝗧𝗛𝗨 〽️𝗔𝗫 𝗬𝗧",
+                newsletterName: "JESTER",
                 serverMessageId: 999
             },
             externalAdReply: {
-                title: '𝐐𝐔𝐄𝐄𝐍 𝐍𝐄𝐓𝐇𝐔 𝐌𝐃 𝐖𝐀 𝐁𝐎𝐓💛',
-                body: 'ᴀ Qᴜᴇᴇɴ ɴᴇᴛʜᴜ ᴍᴅ ᴡᴀ ʙᴏᴛ ʙᴇꜱᴇᴅ ᴏɴ ʙᴀɪʏʟᴇꜱ',
+                title: '𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃 𝐖𝐀 𝐁𝐎𝐓💛',
+                body: 'ᴀ QUEEN SENU MD WA BOT CREATE BY JESTER',
                 mediaType: 1,
-                sourceUrl: "https://www.youtube.com/@SlNethuMax",
+                sourceUrl: "https://www.youtube.com/@jestertools360",
                 thumbnailUrl: 'https://i.ibb.co/wsRfxsf/IMG-20241220-WA0008.jpg', // This should match the image URL provided above
                 renderLargerThumbnail: false,
                 showAdAttribution: true
@@ -191,7 +191,7 @@ async function connectToWA() {
 
 if (config.autoBioEnabled === 'true'){
     await
-conn.updateProfileStatus(`QUEEN NETHU MD ${moment.tz('Asia/Colombo').format('HH:mm:ss')}`)
+conn.updateProfileStatus(`QUEEN SENU MD ${moment.tz('Asia/Colombo').format('HH:mm:ss')}`)
 
 }
 
