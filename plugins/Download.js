@@ -32,9 +32,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     itemCount: snm[Math.floor(Math.random() * snm.length)], // Random selection
                     status: 1,
                     surface: 1,
-                    message: `✨ 𝐐𝐮𝐞𝐞𝐧 𝘀𝗮𝗱𝘂 𝗯𝗼𝘁 𝗯𝘆 𝗺𝗿 𝗱𝗶𝗻𝗲𝘀𝗵💗`,
+                    message: `✨ 𝐐𝐮𝐞𝐞𝐧 𝘀enu 𝗯𝗼𝘁 𝗯𝘆 𝗺𝗿 jester💗`,
                     orderTitle: "",
-                    sellerJid: '94704227534@s.whatsapp.net'
+                    sellerJid: '94788770020@s.whatsapp.net'
                 }
             }
         };
@@ -45,7 +45,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*🧚‍♂️⃝ QUEEN SADU MD SONG DOWNLOADER 🩷⃟🧚‍♂️*
+        let desc = `*🧚‍♂️⃝ QUEEN SENU MD SONG DOWNLOADER 🩷⃟🧚‍♂️*
 
 *|__________________________*
 *|-ℹ️ 𝗧𝗶𝘁𝗹𝗲 :* ${data.title}
@@ -60,7 +60,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *1 Audio File🎶*
 *2 Document File📁*
 
-*👨‍💻 Qᴜᴇᴇɴ ꜱᴀᴅᴜ ᴍᴅ 👨‍💻*`;
+*👨‍💻 QUEEN SENU MD 👨‍💻*`;
 
         const vv = await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
 
@@ -75,13 +75,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     case '1':
                         let down = await fg.yta(url);
                         let downloadUrl = down.dl_url;
-                        await conn.sendMessage(from, { audio: { url:downloadUrl }, caption: '*👨‍💻 Qᴜᴇᴇɴ ꜱᴀᴅᴜ ʙʏ ᴍʀ ᴅɪɴᴇꜱʜ👨‍💻*', mimetype: 'audio/mpeg'},{ quoted: qMessage });
+                        await conn.sendMessage(from, { audio: { url:downloadUrl }, caption: '*👨‍💻 QUEEN SENU MD BY JESTER👨‍💻*', mimetype: 'audio/mpeg'},{ quoted: qMessage });
                         break;
                     case '2':               
                         // Send Document File
                         let downdoc = await fg.yta(url);
                         let downloaddocUrl = downdoc.dl_url;
-                        await conn.sendMessage(from, { document: { url:downloaddocUrl }, caption: '*👨‍💻 Qᴜᴇᴇɴ ꜱᴀᴅᴜ ʙʏ ᴍʀ ᴅɪɴᴇꜱʜ 👨‍💻*', mimetype: 'audio/mpeg', fileName:data.title + ".mp3"}, { quoted: qMessage });
+                        await conn.sendMessage(from, { document: { url:downloaddocUrl }, caption: '*👨‍💻 QUEEN SENU MD BY JESTER 👨‍💻*', mimetype: 'audio/mpeg', fileName:data.title + ".mp3"}, { quoted: qMessage });
                         await conn.sendMessage(from, { react: { text: '✅', key: mek.key } })
                         break;
                     default:
@@ -123,9 +123,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     itemCount: snm[Math.floor(Math.random() * snm.length)], // Random selection
                     status: 1,
                     surface: 1,
-                    message: `✨ 𝗾𝘂𝗲𝗲𝗻 𝘀𝗮𝗱𝘂 𝗯𝘆 𝗺𝗿 𝗱𝗶𝗻𝗲𝘀𝗵💗`,
+                    message: `✨ 𝗾𝘂𝗲𝗲𝗻 𝘀𝐞𝐧𝐮 𝗯𝘆 𝗺𝗿 𝐣𝐞𝐬𝐭𝐞𝐫💗`,
                     orderTitle: "",
-                    sellerJid: '94704227534@s.whatsapp.net'
+                    sellerJid: '94788770020@s.whatsapp.net'
                 }
             }
         };
@@ -136,7 +136,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*🧚‍♂️⃝ QUEEN SADU VIDEO DOWNLOADER 🩷⃟🧚‍♂️*
+        let desc = `*🧚‍♂️⃝ QUEEN SENU VIDEO DOWNLOADER 🩷⃟🧚‍♂️*
 *|__________________________*
 *|-ℹ️ 𝗧𝗶𝘁𝗹𝗲 :* ${data.title}
 *|-🕘 𝗧𝗶𝗺𝗲 :* ${data.timestamp}
@@ -152,7 +152,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 *🔢 Reply Below Number :*
 
-*👨‍💻 Qᴜᴇᴇɴ ꜱᴀᴅᴜ ʙʏ ᴍʀ ᴅɪɴᴇꜱʜ 👨‍💻*`;
+*👨‍💻 QUEEN SENU MD MR JESTER 👨‍💻*`;
 
         const vv = await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
 
@@ -167,12 +167,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     case '1':
                         let downvid = await fg.ytv(url);
                         let downloadvUrl = downvid.dl_url;
-                        await conn.sendMessage(from, { video : { url:downloadvUrl }, caption: '*👨‍💻 Qᴜᴇᴇɴ ꜱᴀᴅᴜ ʙʏ ᴍʀ ᴅɪɴᴇꜱʜ 👨‍💻*', mimetype: 'video/mp4'},{ quoted: qMessage });
+                        await conn.sendMessage(from, { video : { url:downloadvUrl }, caption: '*👨‍💻 QUEEN SENU MD MR JESTER 👨‍💻*', mimetype: 'video/mp4'},{ quoted: qMessage });
                         break;
                     case '2':
                         let downviddoc = await fg.ytv(url);
                         let downloadvdocUrl = downviddoc.dl_url;
-                        await conn.sendMessage(from, { document: { url:downloadvdocUrl }, caption: '*👨‍💻 Qᴜᴇᴇɴ ꜱᴀᴅᴜ ʙʏ ᴍʀ ᴅɪɴᴇꜱʜ👨‍💻*', mimetype: 'video/mp4', fileName:data.title + ".mp4" }, { quoted: qMessage });
+                        await conn.sendMessage(from, { document: { url:downloadvdocUrl }, caption: '*👨‍💻 QUEEN SENU BY MR JESTER 👨‍💻*', mimetype: 'video/mp4', fileName:data.title + ".mp4" }, { quoted: qMessage });
                         break;
                     default:
                         reply("Invalid option. Please select a valid option🔴");
@@ -214,9 +214,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     itemCount: snm[Math.floor(Math.random() * snm.length)], // Random selection
                     status: 1,
                     surface: 1,
-                    message: `✨ 𝐐𝐮𝐞𝐞𝐧 𝐬𝐚𝐝𝐮 𝐛𝐲 𝐦𝐫 𝐝𝐢𝐧𝐞𝐬𝐡 💗`,
+                    message: `✨ 𝐐𝐮𝐞𝐞𝐧 𝐬𝐞𝐧𝐮 𝐛𝐲 𝐦𝐫 𝐣𝐞𝐬𝐭𝐞𝐫 💗`,
                     orderTitle: "",
-                    sellerJid: '94704227534@s.whatsapp.net'
+                    sellerJid: '94788770020@s.whatsapp.net'
                 }
             }
         };
@@ -249,7 +249,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 🌟 *Image ${i + 1} from your search!* 🌟
         *Enjoy these images! 📸*
 
-*👨‍💻 Qᴜᴇᴇɴ 𝚜𝚊𝚍𝚞 𝚋𝚢 𝚖𝚛 𝚍𝚒𝚗𝚎𝚜𝚑👨‍💻*
+*👨‍💻 QUEEN SENU BY MR JESTER👨‍💻*
 `
 }, { quoted: qMessage });
 }
@@ -283,14 +283,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         if (!q || !q.startsWith("https://")) return reply("Please provide a valid Facebook video URL!");
         const data = await fetchJson(`${baseUrl}/api/fdown?url=${q}`);
-        let desc = ` *🧚‍♂️ QUEEN 𝚂𝙰𝙳𝚄 FB DOWNLOADER 🧚‍♂️*
+        let desc = ` *🧚‍♂️ QUEEN 𝚂𝙴𝙽𝚄 FB DOWNLOADER 🧚‍♂️*
 
 *🔢 Reply Below Number :*
 
 *1 Download HD Quality*
 *2 Download SD Quality*
 
-*👨‍💻 Qᴜᴇᴇɴ 𝚜𝚊𝚍𝚞 𝚋𝚢 𝚖𝚛 𝚍𝚒𝚗𝚎𝚜𝚑 👨‍💻*`;
+*👨‍💻 QUEEN SENU BY MR JESTER 👨‍💻*`;
 
         const vv = await conn.sendMessage(from, { image: { url:"https://i.postimg.cc/xdMvP3XZ/In-Shot-20241222-002123636.jpg"}, caption: desc }, { quoted: mek });
         
@@ -303,7 +303,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             if (msg.message.extendedTextMessage.contextInfo && msg.message.extendedTextMessage.contextInfo.stanzaId === vv.key.id) {
                 switch (selectedOption) {
                     case '1':
-                        await conn.sendMessage(from, { video: { url: data.data.hd }, mimetype: "video/mp4", caption: "*👨‍💻 Qᴜᴇᴇɴ 𝚜𝚊𝚍𝚞 𝚋𝚢 𝚖𝚛 𝚍𝚒𝚗𝚎𝚜𝚑 👨‍💻*" }, { quoted: mek });
+                        await conn.sendMessage(from, { video: { url: data.data.hd }, mimetype: "video/mp4", caption: "*👨‍💻 QUEEN SENU BY MR JESTER 👨‍💻*" }, { quoted: mek });
                         break;
                     case '2':               
                     await conn.sendMessage(from, { video: { url: data.data.sd }, mimetype: "video/mp4", caption: "" }, { quoted: mek });
@@ -347,9 +347,9 @@ try {
                     itemCount: snm[Math.floor(Math.random() * snm.length)], // Random selection
                     status: 1,
                     surface: 1,
-                    message: `✨ Qᴜᴇᴇɴ 𝚜𝚊𝚍𝚞 𝚋𝚢 𝚖𝚛 𝚍𝚒𝚗𝚎𝚜𝚑 💗`,
+                    message: `✨ QUEEN SENU BY MR JESTER 💗`,
                     orderTitle: "",
-                    sellerJid: '94704227534@s.whatsapp.net'
+                    sellerJid: '94788770020@s.whatsapp.net'
                 }
             }
         };
@@ -366,7 +366,7 @@ let step3 = data.datalist.list[0].size / 1000000
 let correctsize = step3 - step2
     
 let desc = `
-*🧚‍♂️⃝ QUEEN SADU MD APK DOWNLOADER 🩷⃟🧚‍♂️*
+*🧚‍♂️⃝ QUEEN SENU MD APK DOWNLOADER 🩷⃟🧚‍♂️*
 *╭──📦 APK Details 📦──◦•◦►•*
 *╎*
 *╎* *🏷️ Nᴀᴍᴇ :* ${data.datalist.list[0].name}
@@ -375,7 +375,7 @@ let desc = `
 *╎* *📆 Lᴀꜱᴛ Uᴘᴅᴀᴛᴇ :* ${data.datalist.list[0].updated}
 *╎* *👤 Dᴇᴠᴇʟᴏᴘᴇʀꜱ :* ${data.datalist.list[0].developer.name}
 *╎*
-*╰───────────────◦•◦►•*\n\n\*👨‍💻 Qᴜᴇᴇɴ 𝚜𝚊𝚍𝚞 𝚋𝚢 𝚖𝚛 𝚍𝚒𝚗𝚎𝚜𝚑 👨‍💻*`
+*╰───────────────◦•◦►•*\n\n\*👨‍💻 Queen 𝚂𝚎𝚗𝚞 𝚋𝚢 𝚖𝚛 𝙹𝚎𝚜𝚝𝚎𝚛 👨‍💻*`
 
 await conn.sendMessage(from,{image: {url: data.datalist.list[0].icon},caption: desc},{quoted: mek})
 await conn.sendMessage(from,{document: {url: data.datalist.list[0].file.path_alt},fileName: data.datalist.list[0].name,mimetype: 'application/vnd.android.package-archive',caption: `*👨‍💻 Qᴜᴇᴇɴ x ᴍᴅ ʙʏ ɴᴇᴛʜᴜ ᴍᴀx ʏᴛ 👨‍💻*`},{ quoted: qMessage });
