@@ -26,14 +26,14 @@ cmd({
         let monspace = '```';
         const snm = `👋 ${monspace} Hello ${pushname}, I'm alive now ${monspace}
 
-_*This queen sadu whatsapp bot is made for your easy use. This bot is currently active🪄*_
+_*This queen senu whatsapp bot is made for your easy use. This bot is currently active🪄*_
 
 > *Version:* ${require("../package.json").version}
 > *Memory:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 > *Runtime:* ${runtime(process.uptime())}
 > *Hostname:* ${hostname}
 
-*☘️ Follow our channel:* https://chat.whatsapp.com/EMRQDL2ANWlJcvs1nw90mv
+*☘️ Follow our channel:* https://whatsapp.com/channel/0029VayrakE35fM0fqnszD3c
 
 *Qᴜᴇᴇɴ ꜱᴀᴅᴜ ᴍᴅ ᴡᴀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ*
 *ᴍʀ ᴅɪɴᴇꜱʜ*`;
@@ -53,7 +53,7 @@ _*This queen sadu whatsapp bot is made for your easy use. This bot is currently 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: '𝐌𝐑 𝐃𝐈𝐍𝐄𝐒𝐇',
+                    newsletterName: '𝐌𝐑 𝐉𝐄𝐒𝐓𝐄𝐑',
                     newsletterJid: "120363322195409882@newsletter",
                 }
             }
@@ -94,7 +94,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *│ 9   OTHER*
 *╰─────────
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`;
+> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`;
 
 
         await conn.sendMessage(from, {
@@ -120,7 +120,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *restart* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
                         break;
                     case '2':               
                         reply(`*◈╾──CONVERT MENU──╼◈*
@@ -129,7 +129,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *convert* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
                         break;
                     case '3':               
                         reply(`*◈╾──AI MENU──╼◈*
@@ -138,7 +138,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *ai* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
                         break;
                     case '4':               
                         reply(`*◈╾──SEARCH MENU──╼◈*
@@ -150,7 +150,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *srepo* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
                         break;
                     case '5':               
                         reply(`*◈╾──DOWNLOAD MENU──╼◈*
@@ -198,7 +198,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *img* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
                         break;
                     case '7':               
                         reply(`*◈╾──MAIN MENU──╼◈*
@@ -228,7 +228,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *runtime* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
                         break;
                     case '8':               
                         reply(`*◈╾──GROUP MENU──╼◈*
@@ -267,7 +267,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *gname* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
                        break;
                     case '6':               
                         reply(`*◈╾──FUN MENU──╼◈*
@@ -285,7 +285,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *quote* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
 
                         break;
                     case '9':               
@@ -301,7 +301,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 🎀 *weather* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃*`);
 
 
                         break;
@@ -358,13 +358,13 @@ async (conn, mek, m, { from, prefix, pushname, reply }) => {
         else if (os.hostname().length == 8) hostname = 'koyeb';
         else hostname = os.hostname();
 
-        const sssf = `*QUEEN SADU*
+        const sssf = `*QUEEN SENU*
         
 🎉 *Version :* ${require("../package.json").version}
 🗃️ *Memory :* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 ⏱️ *Runtime :* ${runtime(process.uptime())}
 📍 *Platform :* ${hostname}
-👤 *Owner :* 𝐌𝐑 𝐃𝐈𝐍𝐄𝐒𝐇
+👤 *Owner :* 𝐌𝐑 𝐉𝐄𝐒𝐓𝐄𝐑
 `;
 
         await conn.sendMessage(from, {
@@ -373,7 +373,7 @@ async (conn, mek, m, { from, prefix, pushname, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: '𝐌𝐑 𝐃𝐈𝐍𝐄𝐒𝐇',
+                    newsletterName: '𝐌𝐑 𝐉𝐄𝐒𝐓𝐄𝐑',
                     newsletterJid: "120363322195409882@newsletter",
                 }
             }
@@ -398,7 +398,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         // Construct the bot status message
-        const botStatus = `*QUEEN SADU MD*
+        const botStatus = `*QUEEN SENU MD*
         
 *╭───────────────◈◈►*
 *│ 👾 Bot Status: Online*
@@ -413,7 +413,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: '𝐌𝐑 𝐃𝐈𝐍𝐄𝐒𝐇',
+                    newsletterName: '𝐌𝐑 𝐉𝐄𝐒𝐓𝐄𝐑',
                     newsletterJid: "120363322195409882@newsletter",
                 }
             }
