@@ -375,10 +375,10 @@ let desc = `
 *╎* *📆 Lᴀꜱᴛ Uᴘᴅᴀᴛᴇ :* ${data.datalist.list[0].updated}
 *╎* *👤 Dᴇᴠᴇʟᴏᴘᴇʀꜱ :* ${data.datalist.list[0].developer.name}
 *╎*
-*╰───────────────◦•◦►•*\n\n\*👨‍💻 Queen 𝚂𝚎𝚗𝚞 𝚋𝚢 𝚖𝚛 𝙹𝚎𝚜𝚝𝚎𝚛 👨‍💻*`
+*╰───────────────◦•◦►•*\n\n\*👨‍💻 Qᴜᴇᴇɴ ꜱᴇɴᴜ ᴍᴅ ʙʏ ᴊᴇꜱᴛᴇʀ 👨‍💻*`
 
 await conn.sendMessage(from,{image: {url: data.datalist.list[0].icon},caption: desc},{quoted: mek})
-await conn.sendMessage(from,{document: {url: data.datalist.list[0].file.path_alt},fileName: data.datalist.list[0].name,mimetype: 'application/vnd.android.package-archive',caption: `*👨‍💻 Qᴜᴇᴇɴ x ᴍᴅ ʙʏ ɴᴇᴛʜᴜ ᴍᴀx ʏᴛ 👨‍💻*`},{ quoted: qMessage });
+await conn.sendMessage(from,{document: {url: data.datalist.list[0].file.path_alt},fileName: data.datalist.list[0].name,mimetype: 'application/vnd.android.package-archive',caption: `*👨‍💻 ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ Qᴜᴇᴇɴ ꜱᴇɴᴜ ᴍᴅ 👨‍💻*`},{ quoted: qMessage });
         
 await m.react("✅")
 
