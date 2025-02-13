@@ -35,8 +35,8 @@ _*This queen senu whatsapp bot is made for your easy use. This bot is currently 
 
 *☘️ Follow our channel:* https://whatsapp.com/channel/0029VayrakE35fM0fqnszD3c
 
-*Qᴜᴇᴇɴ ꜱᴀᴅᴜ ᴍᴅ ᴡᴀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ*
-*ᴍʀ ᴅɪɴᴇꜱʜ*`;
+*QUEEN SENU MD IS ALIVE NOW*
+*MR JESTER*`;
 
         // Sending the audio message
         await conn.sendMessage(from, {
