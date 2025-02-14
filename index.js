@@ -104,7 +104,7 @@ async function connectToWA() {
             console.log('✅ QUEEN SENU MD | Bot connected to WhatsApp');
             let up = `*𝐐𝐔𝐄𝐄𝐍 𝐒𝐄𝐍𝐔 𝐌𝐃 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐃𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓 💛*
 
-*╭─「 ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴍꜱɢ 」*
+*╭─「 Qᴜᴇᴇɴ ꜱᴇɴᴜ 」*
 *│OWNER*: CYBER JESTER
 *│NUMBER*: +${ownerNumber}
 *│PREFIX*: ${config.PREFIX}
@@ -126,8 +126,8 @@ async function connectToWA() {
 *│ 11*  *Welcome* : *${WELCOME}*
 *╰───────────◈◈►*
 
-> *ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ᴡᴀ ʙᴏᴛ ʙʏ QUEEN ɴᴇᴛʜᴜ ᴍᴅ*
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ - ɴᴇᴛʜᴜ ᴍᴀx ʏᴛ*`;
+> *ᴡᴜᴇᴇɴ ꜱᴇɴᴜ ᴍᴅ ꜱᴇᴛᴛɪɴɢꜱ*
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴊᴇꜱᴛᴇʀ*`;
             
             conn.sendMessage(ownerNumber + "@s.whatsapp.net", {
                 image: { url: `https://pomf2.lain.la/f/5wapkl5g.jpg` },
@@ -139,7 +139,7 @@ async function connectToWA() {
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363322195409882@newsletter',
-                newsletterName: "JESTER",
+                newsletterName: "𝐌𝐑 𝗝𝝣𝗦𝗧𝝣𝗥-ＩＤ</>🇱🇰",
                 serverMessageId: 999
             },
             externalAdReply: {
@@ -147,7 +147,7 @@ async function connectToWA() {
                 body: 'ᴀ QUEEN SENU MD WA BOT CREATE BY JESTER',
                 mediaType: 1,
                 sourceUrl: "https://www.youtube.com/@jestertools360",
-                thumbnailUrl: 'https://i.ibb.co/wsRfxsf/IMG-20241220-WA0008.jpg', // This should match the image URL provided above
+                thumbnailUrl: 'https://i.ibb.co/FLCv8J7R/2599.jpg', // This should match the image URL provided above
                 renderLargerThumbnail: false,
                 showAdAttribution: true
             }
