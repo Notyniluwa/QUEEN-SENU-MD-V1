@@ -11,7 +11,7 @@ cmd({
     pattern: "alive",
     desc: "Check bot online or not.",
     category: "general",
-    react: "🎀",
+    react: "👋",
     filename: __filename
 }, async (conn, mek, m, { from, prefix, pushname, reply }) => {
     try {
@@ -102,7 +102,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             ptt: true
         }, { quoted: mek });
 
-        const vv = await conn.sendMessage(from, { image: { url: "https://i.postimg.cc/xdMvP3XZ/In-Shot-20241222-002123636.jpg"}, caption: desc }, { quoted: mek });
+        const vv = await conn.sendMessage(from, { image: { url: "https://i.ibb.co/FLCv8J7R/2599.jpg"}, caption: desc }, { quoted: mek });
 
         conn.ev.on('messages.upsert', async (msgUpdate) => {
             const msg = msgUpdate.messages[0];
