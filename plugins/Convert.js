@@ -298,7 +298,7 @@ async (conn, mek, m, { from, q, reply }) => {
 🔠 *Translated*: ${translation}
 🌐 *Language*: ${targetLang.toUpperCase()}
 
-*👨‍💻 Queen senu md mr Jester 👨‍💻*`;
+ * ©Qᴜᴇᴇɴ ꜱᴇɴᴜ ᴍᴅ ʙʏ ᴊᴇꜱᴛᴇʀ 👨‍💻*`;
 
         return reply(translationMessage);
     } catch (e) {
