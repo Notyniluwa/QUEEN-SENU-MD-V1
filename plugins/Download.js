@@ -32,7 +32,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     itemCount: snm[Math.floor(Math.random() * snm.length)], // Random selection
                     status: 1,
                     surface: 1,
-                    message: `✨ 𝐐𝐮𝐞𝐞𝐧 𝘀enu 𝗯𝗼𝘁 𝗯𝘆 𝗺𝗿 jester💗`,
+                    message: `✨ 𝐐𝐮𝐞𝐞𝐧 𝐒𝐞𝐧𝐮 𝐛𝐨𝐭 𝐦𝐚𝐝𝐞 𝐛𝐲 𝐉𝐞𝐬𝐭𝐞𝐫💗`,
                     orderTitle: "",
                     sellerJid: '94788770020@s.whatsapp.net'
                 }
@@ -45,7 +45,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*🧚‍♂️⃝ QUEEN SENU MD SONG DOWNLOADER 🩷⃟🧚‍♂️*
+        let desc = `*🧚‍♂️QUEEN SENU MD SONG DOWNLOADER 🧚‍♂️*
 
 *|__________________________*
 *|-ℹ️ 𝗧𝗶𝘁𝗹𝗲 :* ${data.title}
@@ -60,7 +60,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *1 Audio File🎶*
 *2 Document File📁*
 
-*👨‍💻 QUEEN SENU MD 👨‍💻*`;
+*© QUEEN SENU-MD 👨‍💻*`;
 
         const vv = await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
 
@@ -136,7 +136,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*🧚‍♂️⃝ QUEEN SENU VIDEO DOWNLOADER 🩷⃟🧚‍♂️*
+        let desc = `*🧚‍♂️ QUEEN SENU MD VIDEO DOWNLOADER 🧚‍♂️*
 *|__________________________*
 *|-ℹ️ 𝗧𝗶𝘁𝗹𝗲 :* ${data.title}
 *|-🕘 𝗧𝗶𝗺𝗲 :* ${data.timestamp}
@@ -283,14 +283,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         if (!q || !q.startsWith("https://")) return reply("Please provide a valid Facebook video URL!");
         const data = await fetchJson(`${baseUrl}/api/fdown?url=${q}`);
-        let desc = ` *🧚‍♂️ QUEEN 𝚂𝙴𝙽𝚄 FB DOWNLOADER 🧚‍♂️*
+        let desc = ` *🧚‍♂️ QUEEN SENU MD FB DOWNLOADER 🧚‍♂️*
 
 *🔢 Reply Below Number :*
 
 *1 Download HD Quality*
 *2 Download SD Quality*
 
-*👨‍💻 QUEEN SENU BY MR JESTER 👨‍💻*`;
+*© QUEEN SENU BY MR JESTER 👨‍💻*`;
 
         const vv = await conn.sendMessage(from, { image: { url:"https://i.postimg.cc/xdMvP3XZ/In-Shot-20241222-002123636.jpg"}, caption: desc }, { quoted: mek });
         
@@ -366,7 +366,7 @@ let step3 = data.datalist.list[0].size / 1000000
 let correctsize = step3 - step2
     
 let desc = `
-*🧚‍♂️⃝ QUEEN SENU MD APK DOWNLOADER 🩷⃟🧚‍♂️*
+*🧚‍♂️ QUEEN SENU MD APK DOWNLOADER 🧚‍♂️*
 *╭──📦 APK Details 📦──◦•◦►•*
 *╎*
 *╎* *🏷️ Nᴀᴍᴇ :* ${data.datalist.list[0].name}
